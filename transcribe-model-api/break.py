@@ -7,7 +7,7 @@ app = Flask(__name__)
 # NVIDIA API details
 NVIDIA_API_URL = "grpc.nvcf.nvidia.com:443"
 FUNCTION_ID = "d8dd4e9b-fbf5-4fb0-9dba-8cf436c8d965"
-API_KEY = "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"
+API_KEY = ""
 
 def transcribe_audio(audio_file_path):
     """Transcribe audio using NVIDIA API"""
